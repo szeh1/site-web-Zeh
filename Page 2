@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style1.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" type="image/vnd.icon" href="f.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8" />
+<title>epic games</title>
+</head>
+<body class="fond">
+
+<div>
+<div class="w3-sidebar w3-black w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-white w3-button w3-large">Fermer &times;</button>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/lefortnite.html" class="w3-bar-item w3-button">Accueil</a>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/epic.html" class="w3-bar-item w3-button">Epic games</a>
+  <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">Les modes</button>
+<div id="Demo1" class="w3-hide w3-animate-zoom">
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/battle%20royale.html" class="w3-button w3-block w3-grey w3-left-align">Battle royale</a>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/sauver%20le%20monde.html" class="w3-button w3-block w3-grey w3-left-align">Sauver le monde</a>
+ </div>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/competition.html" class="w3-bar-item w3-button">Compétition</a>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/English.html" class="w3-bar-item w3-button">Fortnite in English</a>
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+ 
+
+
+<img src="epic-removebg-preview.png" alt="logo epic" width=100 height=100"/> 
+  
+  <button class="w3-button w3-#101014 w3-xxlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+ 
+  <div class="w3-container">
+  
+  
+    <h1 class="w3-center"><strong>EPIC GAMES</strong> </h1>
+  </div>
+ 
+
+
+     
+	 <script>
+
+
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
+
+function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+}
+</script>
+<div class="w3-center w3-content">
+<h2> EPIC GAMES est une entreprise Americaine de jeux vidéo créer en 1991 par Tim Sweeney qui a pour jeux principal: <u>Fornite</u>, <u>Fall guys</u> et <u>Rocket league</u> </h2>
+</br>
+</br>
+</div> 
+</div>   
+</br>
+</br>
+<div class="w3-row">
+<div class="w3-half w3-container">
+    <h4>
+	 ‎</br>
+	Fortnite battle royale est un jeu gratuit conçu par Epric games, qui a pour but de faire affronter 100 personnes sur une île et le gagnant sera 
+	 </br>le dernier en vie, on peut jouer dans un groupe entre 1-4 personnes.
+	 </br> Les joueurs sautent d'un bus volant pour atterrir sur une île puis complétée leurs inventaires avec différentes armes
+	 </br> plus l'arme est rare plus elle est forte. La plus grande particularité de fornite c'est qu'on puisse construire ou modifier 
+	 </br>ce qui rend le jeu bien plus compliqué et bien plus varié que dans les battle royale traditionnels qu'on pouvait voir auparavant.
+	</h4>
+  </div>
+  <div class="w3-half w3-container">
+<img src="chap5.png" alt="chap5" align="left" width="90%">
+  </div>
+</div>
+</br>
+</br>
+<div class="w3-row">
+<div class="w3-half w3-container">
+    <img src="r.png" alt="rocket" align="right" width="90%">
+  </div>
+  <div class="w3-half w3-container">
+     </br>
+	 </br>
+    <h4>‎Rocket League est un jeu de voiture originale, gratuit où les voitures ne font pas la course mais font du foot, on y joue 
+     </br>en 1vs1, 2vs2 ou 3vs3 avec d'autres modes supplémentaires. Le but du jeu est de marquer le plus de but dans les cages 
+	 </br>adverses en 5min.
+    </h4>
+  </div>
+ </div>
+</br>
+</br>
+<div class="w3-row">
+<div class="w3-half w3-container">
+     </br>
+	 </br>
+	 </br>
+	 </br>
+    <h4>‎Fall guys est un jeu gratuit où l'on contrôle de petits personnages mignon, on peut y jouer seul comme en équipe.
+	</br>le principe du jeu est de finir premier de chaque course entre 60 personnes qui sont éliminées petit à petit.
+	</h4>
+  </div>
+  <div class="w3-half w3-container">
+<img src="fall.png" alt="fall guys" align="left" width="90%">
+  </div>
+</div>
+</br>
+</br>
+</br>
+<h4 class="w3-center"><u> photos et videos: Epic games </u></h4
+
+</body>
+</html>
