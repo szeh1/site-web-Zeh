@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style1.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="icon" type="image/vnd.icon" href="f.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8" />
+<title>compétition</title>
+</head>
+<body class="stade">
+<div>
+<div>
+<div class="w3-sidebar w3-black w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-white w3-button w3-large">Fermer &times;</button>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/lefortnite.html" class="w3-bar-item w3-button">Accueil</a>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/epic.html" class="w3-bar-item w3-button">Epic games</a>
+  <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">Les modes</button>
+<div id="Demo1" class="w3-hide w3-animate-zoom">
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/battle%20royale.html" class="w3-button w3-block w3-grey w3-left-align">Battle royale</a>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/sauver%20le%20monde.html" class="w3-button w3-block w3-grey w3-left-align">Sauver le monde</a>
+ </div>
+ <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/competition.html" class="w3-bar-item w3-button">Compétition</a>
+  <a href="file:///C:/Users/samiz/Documents/site%20SIN%20fortnite/English.html" class="w3-bar-item w3-button">Fortnite in English</a>
+</div>
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+ 
+
+
+<img src="epic-removebg-preview.png" alt="logo epic" width=100 height=100"/> 
+  
+  <button class="w3-button w3-#101014 w3-xxlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+ 
+  
+ </div>
+ 
+
+
+     
+	 <script>
+
+
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
+
+function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+}
+</script>
+<h1 class="w3-center"><strong>LES COMPÉTITIONS</strong></h1>
+
+<div class="w3-row">
+<div class="w3-hide-small">
+  <div class="w3-half w3-container">
+    <img src="cup.jpg" alt="compete1" width="50%" class="w3-right"/>
+  </div>
+  <div class="w3-half w3-container">
+    <img src="bh.jpg" alt="cup" width="50%" class="w3-center"/>
+  </div>
+ </div>
+ <div class="w3-hide-medium w3-hide-large">
+ <div class="w3-row w3-container w3-margin-top">
+	<div class="w3-center">
+		<img src="cup.jpg" alt="compete1" width="50%" class="w3-center"/>
+	</div>
+  </div>
+  <div class="w3-row w3-container w3-margin-top">
+	<div class="w3-center">
+		<img src="bh.jpg" alt="cup" width="50%" class="w3-center"/>
+	</div>
+  </div>
+ </div>
+</div>
+<h2 class="w3-center w3-content"><b> Fortnite battle royale est un des jeux les plus compétitifs au monde, mais qui est très ouvert aux joueurs, n'importe qui peut participier au tournoi fortnite mais pas grand monde peuvent acceder aux grandes finals. les tournois se déroulent soit en solo soit en duo. </b></h2>
+</br>
+</br>
+<h2 class="w3-center w3-content"><b> La plus grande compétiton esport au monde</b></h2>
+<h2 class="w3-center w3-content"><b> La world cup 2019 est l'évènement le plus connu de toute l'histoire de Fortnite, elle s'est déroulé à New york en 2019, elle comprend 30 millions de gains totaux avec un match en solo et en duo. le gagnant de la coupe solo est bugha, qui a gagné 3 millions de dollars et les gagnants de la coupe duo sont Nyhrox et Aqua qui ont gagné 3 millions de dollars à eux deux.</b></h2>
+</br>
+</br>
+</br>
+<h4 class="w3-center"><u> photos et videos: Epic games, reddit  </u></h4>
+</body>
+</html>
