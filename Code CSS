@@ -1,0 +1,28 @@
+@font-face {
+	font-family:'Fortnite';
+	font-weight: 700;
+	src:
+		local("Burbank-Big-Condensed-Black"),
+		url('/font/Burbank-Big-Condensed-Black.ttf') format('truetype');	
+}
+.titre_principal
+{
+color: white;
+font-family: Fortnite;
+}
+
+.fond
+{
+background-color: #101014; /* Le fond de la page sera noir */
+color: white; /* Le texte de la page sera blanc */
+}
+
+.stade
+{
+background-image: url(stade.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+}
+
+
